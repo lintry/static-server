@@ -4,7 +4,12 @@
   "description": "start static server with cli",
   "main": "index.js",
   "scripts": {
+    "start": "bin/server-cli.js start public",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.kmlab.com:postman/messager.git"
   },
   "keywords": [],
   "author": "lintry <shenlin00@gmail.com>",

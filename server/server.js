@@ -7,7 +7,6 @@ module.exports = function (path_list, bind_port, autoOpen) {
     let start_time = Date.now();
     const express = require('express'),
         chalk = require('chalk'),
-        styles = require('ansi-styles'),
         opn = require('opn');
 
     // 定义参数

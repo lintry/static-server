@@ -5,5 +5,6 @@
 
 const server = require('./server/server');
 
-server('./public/', 8080, true);
+// server('./public/', 8080, true);
 
+module.exports = server;
