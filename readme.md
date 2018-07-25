@@ -10,7 +10,7 @@ Start static server with cli. It only provid a simple web server for browse a ht
 install via npm
 
 ```sh
-npm instal kml-static-server -g
+npm install kml-static-server -g
 ```
 
 or install from source code
